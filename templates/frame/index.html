@@ -1,0 +1,22 @@
+<div class="FileSystemElement-container" data-id="{{randomId}}">
+
+  <div class="FileSystemElement-button {{ value is not defined or rawValue.url is not defined or rawValue.url == '' ? 'active' }}">
+    <button class="file-system-picker-open">Pick an asset</button>
+  </div>
+
+  <div class="FileSystemElement-picker-container">
+    <div class="FileSystemElement-picker">
+    </div>
+    <div class="FileSystemElement-close">X</div>
+  </div>
+
+  <div class="FileSystemElement-element {{ value is defined and rawValue.url is defined and rawValue.url != '' ? 'active' }}">
+    <div class="FileSystemElement-thumbnail">
+      <img src="{{ value is defined and rawValue.url is defined and rawValue.url != '' ? rawValue.url }}" />
+      <br />
+      <button class="file-system-remove">Remove</button>
+    </div>
+    <input type="hidden" name="{{name}}" value="{{value}}" />
+  </div>
+
+</div>

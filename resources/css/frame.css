@@ -1,0 +1,65 @@
+
+.FileSystemElement-picker-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100000000;
+}
+
+.FileSystemElement-button {
+  display: none;
+}
+
+.FileSystemElement-button.active {
+  display: block;
+}
+
+.FileSystemElement-picker {
+  position: absolute;
+  z-index: 100000001;
+  top: 50px;
+  left: 50px;
+  bottom: 50px;
+  right: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 30px #000;
+}
+
+.FileSystemElement-close {
+  position: absolute;
+  z-index: 100000002;
+  top: 40px;
+  right: 40px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+}
+
+.FileSystemElement-close:hover {
+  cursor: pointer;
+}
+
+.FileSystemElement-element {
+  display: none;
+}
+
+.FileSystemElement-element.active {
+  display: block;
+}
+
+.FileSystemElement-thumbnail img {
+  width: 100px;
+  height: 100px;
+}
+
+.FileSystemElement-thumbnail img:hover {
+  cursor: pointer;
+}
