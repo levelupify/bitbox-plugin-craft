@@ -12,7 +12,7 @@
 
   <div class="FileSystemElement-element {{ value is defined and rawValue.url is defined and rawValue.url != '' ? 'active' }}">
     <div class="FileSystemElement-thumbnail">
-      <img src="{{ value is defined and rawValue.url is defined and rawValue.url != '' ? rawValue.url }}" />
+      <img src="{{ value is defined and rawValue.url is defined and rawValue.url != '' ? rawValue.thumbUrl|default(rawValue.url) }}" />
       <br />
       <button class="file-system-remove">Remove</button>
     </div>
