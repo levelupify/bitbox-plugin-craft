@@ -31,7 +31,7 @@ $(document).ready(function() {
     var picker = container.find('.FileSystemElement-picker');
 
     pickerContainer.show();
-    picker.html('<iframe src="http://files.levelup.dev/?mode=picker&_pickerid=' + container.data('id') + '" width="100%" height="100%"></iframe>');
+    picker.html('<iframe src="http://files.levelup.no/?mode=picker&_pickerid=' + container.data('id') + '" width="100%" height="100%"></iframe>');
 
     ev.preventDefault();
   });
