@@ -64,11 +64,11 @@ class FileSystemElement_FileSystemFieldType extends BaseFieldType
     # Dummy data end
 
     // Include our Javascript and css
-    craft()->templates->includeJsResource('FileSystemElement/js/frame.js');
-    craft()->templates->includeCssResource('FileSystemElement/css/frame.css');
+    craft()->templates->includeJsResource('filesystemelement/js/frame.js');
+    craft()->templates->includeCssResource('filesystemelement/css/frame.css');
 
     // push variables into template
-    return craft()->templates->render('FileSystemElement/frame/index', array(
+    return craft()->templates->render('filesystemelement/frame/index', array(
       'name'  => $name,
       'value'  => json_encode($value),
       'rawValue'  => $value != '' ? $value : array('url' => null),
