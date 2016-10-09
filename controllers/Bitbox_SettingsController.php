@@ -1,7 +1,7 @@
 <?php
 namespace Craft;
 
-class FileSystemElement_SettingsController extends BaseController
+class Bitbox_SettingsController extends BaseController
 {
 
   protected $allowAnonymous = true;
@@ -11,7 +11,7 @@ class FileSystemElement_SettingsController extends BaseController
    */
   public function actionEdit(){
     $variables[] = [];
-    $this->renderTemplate('FileSystemElement/settings/index.html', $variables);
+    $this->renderTemplate('Bitbox/settings/index.html', $variables);
   }
 
 

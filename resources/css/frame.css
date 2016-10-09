@@ -1,5 +1,5 @@
 
-.FileSystemElement-picker-container {
+.Bitbox-picker-container {
   display: none;
   position: fixed;
   top: 0;
@@ -10,15 +10,15 @@
   z-index: 100000000;
 }
 
-.FileSystemElement-button {
+.Bitbox-button {
   display: none;
 }
 
-.FileSystemElement-button.active {
+.Bitbox-button.active {
   display: block;
 }
 
-.FileSystemElement-picker {
+.Bitbox-picker {
   position: absolute;
   z-index: 100000001;
   top: 50px;
@@ -29,7 +29,7 @@
   box-shadow: 0 0 30px #000;
 }
 
-.FileSystemElement-close {
+.Bitbox-close {
   position: absolute;
   z-index: 100000002;
   top: 40px;
@@ -43,23 +43,23 @@
   line-height: 30px;
 }
 
-.FileSystemElement-close:hover {
+.Bitbox-close:hover {
   cursor: pointer;
 }
 
-.FileSystemElement-element {
+.Bitbox-element {
   display: none;
 }
 
-.FileSystemElement-element.active {
+.Bitbox-element.active {
   display: block;
 }
 
-.FileSystemElement-thumbnail img {
+.Bitbox-thumbnail img {
   width: 100px;
   height: 100px;
 }
 
-.FileSystemElement-thumbnail img:hover {
+.Bitbox-thumbnail img:hover {
   cursor: pointer;
 }
