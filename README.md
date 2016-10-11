@@ -46,7 +46,7 @@ array (size=10)
 
 ## Future support
 
-As mentioned abow, this plugin is in Beta. More functionality will get added as users start to use the plugin and [Bitbox](https://bitbox.xyz).
+As mentioned previously, this plugin is in Beta. More functionality will get added as users start to use the plugin and [Bitbox](https://bitbox.xyz).
 
 We welcome anyone to send us requests - [support@bitbox.xyz](mailto:support@bitbox.xyz)
 
